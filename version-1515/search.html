@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>搜索筛选 - 最新国产视频</title>
+    <meta name="description" content="搜索最新国产视频与最新影片合集，支持按分类、地区、年份和题材筛选。">
+    <meta name="keywords" content="最新国产视频,最新影片合集,高清视频在线播放,国产视频,视频更新,精选内容">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<header class="site-header">
+    <nav class="nav-shell" aria-label="主导航">
+        <a class="site-logo" href="index.html" aria-label="最新国产视频 首页">
+            <span class="site-logo-mark">▶</span>
+            <span>最新国产视频</span>
+        </a>
+        <button class="mobile-menu-button" type="button" data-mobile-menu-button aria-label="打开导航菜单">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="nav-links" data-mobile-menu>
+            <a href="index.html">首页</a><a href="categories.html">分类</a><a href="rankings.html">排行榜</a><a href="search.html" aria-current="page">搜索</a><a href="movies/page-1.html">全部影片</a>
+            <span class="nav-separator" aria-hidden="true"></span>
+            <a href="category/guochan-dianshiju/index.html">国产电视剧</a><a href="category/yuanxian-dianying/index.html">院线电影</a><a href="category/zongyi-jiemu/index.html">综艺节目</a><a href="category/jilupian/index.html">纪录片</a>
+        </div>
+        <form class="nav-search" action="search.html" method="get" role="search">
+            <input type="search" name="q" placeholder="搜索影片" autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+    </nav>
+</header>
+
+<main>
+    <section class="page-hero">
+        <div class="shell narrow">
+            <span class="hero-kicker">搜索筛选</span>
+            <h1>查找你想看的影片</h1>
+            <p>支持关键词、分类、地区、年份和题材组合筛选，结果会直接链接到对应静态详情页。</p>
+        </div>
+    </section>
+    <section class="section shell" id="searchApp" data-movies-json="assets/movies.json">
+        <form class="search-panel" data-search-form>
+            <input id="searchKeyword" type="search" placeholder="输入片名、简介、地区或标签" autocomplete="off">
+            <select id="searchCategory" aria-label="分类">
+                <option value="">全部分类</option>
+                <option value="国产电视剧">国产电视剧</option><option value="院线电影">院线电影</option><option value="综艺节目">综艺节目</option><option value="纪录片">纪录片</option>
+            </select>
+            <select id="searchRegion" aria-label="地区">
+                <option value="">全部地区</option>
+                <option value="中国大陆">中国大陆</option><option value="美国">美国</option><option value="日本">日本</option><option value="中国香港">中国香港</option><option value="韩国">韩国</option><option value="英国">英国</option><option value="中国台湾">中国台湾</option><option value="法国">法国</option><option value="中国">中国</option><option value="西班牙">西班牙</option><option value="泰国">泰国</option><option value="印度">印度</option><option value="意大利">意大利</option><option value="德国">德国</option><option value="香港">香港</option><option value="根据片名判断">根据片名判断</option><option value="中国内地">中国内地</option><option value="法国 / 比利时">法国 / 比利时</option><option value="美国 / 英国">美国 / 英国</option><option value="瑞典">瑞典</option><option value="台湾">台湾</option><option value="俄罗斯">俄罗斯</option><option value="英国 / 美国">英国 / 美国</option><option value="加拿大">加拿大</option><option value="中国香港 / 中国大陆">中国香港 / 中国大陆</option><option value="澳大利亚">澳大利亚</option><option value="挪威">挪威</option><option value="法国 / 加拿大">法国 / 加拿大</option><option value="德国 / 波兰">德国 / 波兰</option><option value="马来西亚">马来西亚</option><option value="美国 / 德国">美国 / 德国</option><option value="法国 / 意大利">法国 / 意大利</option><option value="波兰">波兰</option><option value="意大利 / 法国">意大利 / 法国</option><option value="法国 / 德国">法国 / 德国</option><option value="墨西哥">墨西哥</option><option value="俄罗斯 / 美国">俄罗斯 / 美国</option><option value="英国/美国">英国/美国</option><option value="法国 / 波兰">法国 / 波兰</option><option value="捷克">捷克</option>
+            </select>
+            <select id="searchYear" aria-label="年份">
+                <option value="">全部年份</option>
+                <option value="2030">2030</option><option value="2029">2029</option><option value="2028">2028</option><option value="2027">2027</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option>
+            </select>
+            <select id="searchGenre" aria-label="题材">
+                <option value="">全部题材</option>
+                <option value="剧情">剧情</option><option value="悬疑">悬疑</option><option value="喜剧">喜剧</option><option value="爱情">爱情</option><option value="动作">动作</option><option value="犯罪">犯罪</option><option value="惊悚">惊悚</option><option value="奇幻">奇幻</option><option value="家庭">家庭</option><option value="科幻">科幻</option><option value="冒险">冒险</option><option value="历史">历史</option><option value="恐怖">恐怖</option><option value="古装">古装</option><option value="战争">战争</option><option value="青春">青春</option><option value="动画">动画</option><option value="音乐">音乐</option><option value="传记">传记</option><option value="灾难">灾难</option><option value="运动">运动</option><option value="心理">心理</option><option value="武侠">武侠</option><option value="都市">都市</option><option value="文艺">文艺</option><option value="治愈">治愈</option><option value="校园">校园</option><option value="纪录">纪录</option><option value="根据片名判断">根据片名判断</option><option value="同性">同性</option>
+            </select>
+            <button class="button button-primary" type="submit">开始搜索</button>
+        </form>
+        <p class="search-count" data-search-count>已载入片库，可输入关键词筛选。</p>
+        <div class="movie-grid" data-search-results>
+            
+<article class="movie-card" data-title="纳粹的攻击" data-category="院线电影" data-year="2024" data-region="德国">
+    <a href="movie/0001.html">
+        <figure class="poster" data-fallback="纳粹的攻击">
+            <img class="js-cover-image" src="1.jpg" alt="纳粹的攻击" loading="lazy">
+            <span class="play-chip">▶</span>
+            <span class="corner-pill">院线电影</span>
+        </figure>
+        <div class="movie-card-body">
+            <h3>纳粹的攻击</h3>
+            <p>2024年，新纳粹分子通过暗网获得时间武器，企图回到1933年帮助希特勒提前掌权。</p>
+            <div class="movie-meta">2024 / 德国 / 电影</div>
+            <div class="tag-row"><span>历史</span><span>科幻</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card" data-title="夜班巡逻警" data-category="院线电影" data-year="2025" data-region="美国">
+    <a href="movie/0002.html">
+        <figure class="poster" data-fallback="夜班巡逻警">
+            <img class="js-cover-image" src="2.jpg" alt="夜班巡逻警" loading="lazy">
+            <span class="play-chip">▶</span>
+            <span class="corner-pill">院线电影</span>
+        </figure>
+        <div class="movie-card-body">
+            <h3>夜班巡逻警</h3>
+            <p>一个被全城警察嘲笑的废物巡逻员，在值夜班时意外撞破了惊天阴谋。</p>
+            <div class="movie-meta">2025 / 美国 / 电影</div>
+            <div class="tag-row"><span>动作</span><span>犯罪</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card" data-title="血色巴塞隆纳" data-category="院线电影" data-year="2023" data-region="西班牙">
+    <a href="movie/0003.html">
+        <figure class="poster" data-fallback="血色巴塞隆纳">
+            <img class="js-cover-image" src="3.jpg" alt="血色巴塞隆纳" loading="lazy">
+            <span class="play-chip">▶</span>
+            <span class="corner-pill">院线电影</span>
+        </figure>
+        <div class="movie-card-body">
+            <h3>血色巴塞隆纳</h3>
+            <p>一名国际刑警伪装成毒枭侄子潜入巴塞隆纳黑帮，却逐渐发现自己被真正的家族血脉所吸引。</p>
+            <div class="movie-meta">2023 / 西班牙 / 电影</div>
+            <div class="tag-row"><span>动作</span><span>犯罪</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card" data-title="魔鬼发卡" data-category="院线电影" data-year="2025" data-region="中国大陆">
+    <a href="movie/0004.html">
+        <figure class="poster" data-fallback="魔鬼发卡">
+            <img class="js-cover-image" src="4.jpg" alt="魔鬼发卡" loading="lazy">
+            <span class="play-chip">▶</span>
+            <span class="corner-pill">院线电影</span>
+        </figure>
+        <div class="movie-card-body">
+            <h3>魔鬼发卡</h3>
+            <p>女孩捡到一枚红色发卡，戴上后能让霸凌者倒霉，但代价是自己的头发会汲取他人生命。</p>
+            <div class="movie-meta">2025 / 中国大陆 / 电影</div>
+            <div class="tag-row"><span>悬疑</span><span>惊悚</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card" data-title="七生有幸" data-category="院线电影" data-year="2024" data-region="印度">
+    <a href="movie/0005.html">
+        <figure class="poster" data-fallback="七生有幸">
+            <img class="js-cover-image" src="5.jpg" alt="七生有幸" loading="lazy">
+            <span class="play-chip">▶</span>
+            <span class="corner-pill">院线电影</span>
+        </figure>
+        <div class="movie-card-body">
+            <h3>七生有幸</h3>
+            <p>一名男子声称自己活了七世，并预言了大洪水的时间，当他被当成疯子时，天文异象发生了。</p>
+            <div class="movie-meta">2024 / 印度 / 电影</div>
+            <div class="tag-row"><span>剧情</span><span>奇幻</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card" data-title="永不失联的爱" data-category="院线电影" data-year="2023" data-region="中国大陆">
+    <a href="movie/0006.html">
+        <figure class="poster" data-fallback="永不失联的爱">
+            <img class="js-cover-image" src="6.jpg" alt="永不失联的爱" loading="lazy">
+            <span class="play-chip">▶</span>
+            <span class="corner-pill">院线电影</span>
+        </figure>
+        <div class="movie-card-body">
+            <h3>永不失联的爱</h3>
+            <p>一场太阳风暴摧毁全球通信，她必须通过量子纠缠原理，在宇宙噪音中找回爱人的心跳信号。</p>
+            <div class="movie-meta">2023 / 中国大陆 / 电影</div>
+            <div class="tag-row"><span>剧情</span><span>爱情</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card" data-title="飞燕清歌" data-category="国产电视剧" data-year="2025" data-region="中国大陆">
+    <a href="movie/0007.html">
+        <figure class="poster" data-fallback="飞燕清歌">
+            <img class="js-cover-image" src="7.jpg" alt="飞燕清歌" loading="lazy">
+            <span class="play-chip">▶</span>
+            <span class="corner-pill">国产电视剧</span>
+        </figure>
+        <div class="movie-card-body">
+            <h3>飞燕清歌</h3>
+            <p>赵飞燕不只是“掌中舞”的宠妃，她更是一位用舞蹈干预朝政的政治玩家。</p>
+            <div class="movie-meta">2025 / 中国大陆 / 剧集</div>
+            <div class="tag-row"><span>历史</span><span>古装</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card" data-title="午夜冤魂国语" data-category="院线电影" data-year="2006" data-region="香港">
+    <a href="movie/0008.html">
+        <figure class="poster" data-fallback="午夜冤魂国语">
+            <img class="js-cover-image" src="8.jpg" alt="午夜冤魂国语" loading="lazy">
+            <span class="play-chip">▶</span>
+            <span class="corner-pill">院线电影</span>
+        </figure>
+        <div class="movie-card-body">
+            <h3>午夜冤魂国语</h3>
+            <p>一名的士司机每晚载着不同的乘客穿梭于黑夜，直到他发现后视镜里从未出现过自己的脸。</p>
+            <div class="movie-meta">2006 / 香港 / 电影</div>
+            <div class="tag-row"><span>恐怖</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card" data-title="狂野东京" data-category="国产电视剧" data-year="2025" data-region="日本">
+    <a href="movie/0009.html">
+        <figure class="poster" data-fallback="狂野东京">
+            <img class="js-cover-image" src="9.jpg" alt="狂野东京" loading="lazy">
+            <span class="play-chip">▶</span>
+            <span class="corner-pill">国产电视剧</span>
+        </figure>
+        <div class="movie-card-body">
+            <h3>狂野东京</h3>
+            <p>在 2049 年的东京，黑帮不再用刀枪，而是用非法脑机接口植入的“狂怒程序”决斗。</p>
+            <div class="movie-meta">2025 / 日本 / 剧集</div>
+            <div class="tag-row"><span>动作</span><span>犯罪</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card" data-title="蒙面纱的男子" data-category="院线电影" data-year="2028" data-region="中国大陆">
+    <a href="movie/0010.html">
+        <figure class="poster" data-fallback="蒙面纱的男子">
+            <img class="js-cover-image" src="10.jpg" alt="蒙面纱的男子" loading="lazy">
+            <span class="play-chip">▶</span>
+            <span class="corner-pill">院线电影</span>
+        </figure>
+        <div class="movie-card-body">
+            <h3>蒙面纱的男子</h3>
+            <p>为报灭门之仇，千金小姐化身歌女，却爱上了仇人身边那个永远蒙着面纱的神秘保镖。</p>
+            <div class="movie-meta">2028 / 中国大陆 / 电影</div>
+            <div class="tag-row"><span>悬疑</span><span>爱情</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card" data-title="老虎出更" data-category="院线电影" data-year="2026" data-region="中国香港">
+    <a href="movie/0011.html">
+        <figure class="poster" data-fallback="老虎出更">
+            <img class="js-cover-image" src="11.jpg" alt="老虎出更" loading="lazy">
+            <span class="play-chip">▶</span>
+            <span class="corner-pill">院线电影</span>
+        </figure>
+        <div class="movie-card-body">
+            <h3>老虎出更</h3>
+            <p>一名患有严重更年期综合征的老警探，被迫与一个崇尚“躺平”的00后新丁搭档办案。</p>
+            <div class="movie-meta">2026 / 中国香港 / 电影</div>
+            <div class="tag-row"><span>动作</span><span>喜剧</span></div>
+        </div>
+    </a>
+</article>
+<article class="movie-card" data-title="希维司：英雄之声" data-category="国产电视剧" data-year="2025" data-region="美国">
+    <a href="movie/0012.html">
+        <figure class="poster" data-fallback="希维司：英雄之声">
+            <img class="js-cover-image" src="12.jpg" alt="希维司：英雄之声" loading="lazy">
+            <span class="play-chip">▶</span>
+            <span class="corner-pill">国产电视剧</span>
+        </figure>
+        <div class="movie-card-body">
+            <h3>希维司：英雄之声</h3>
+            <p>高中生雷诺意外与外星共生体“希维司”融合，但他发现这个所谓的“英雄之声”实际上是一个星际通缉的精神控制体。</p>
+            <div class="movie-meta">2025 / 美国 / 剧集</div>
+            <div class="tag-row"><span>科幻</span><span>动作</span></div>
+        </div>
+    </a>
+</article>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-shell">
+        <div class="footer-grid">
+            <section>
+                <div class="footer-logo">
+                    <span class="site-logo-mark">▶</span>
+                    <span>最新国产视频</span>
+                </div>
+                <p>最新国产视频栏目聚合近期更新内容，覆盖多类型国产视频与精选片库。</p>
+            </section>
+            <section>
+                <h2>快速入口</h2>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="categories.html">分类总览</a></li>
+                    <li><a href="rankings.html">排行榜</a></li>
+                    <li><a href="search.html">搜索筛选</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>影视分类</h2>
+                <ul>
+                    <li><a href="category/guochan-dianshiju/index.html">国产电视剧</a></li>
+                    <li><a href="category/yuanxian-dianying/index.html">院线电影</a></li>
+                    <li><a href="category/zongyi-jiemu/index.html">综艺节目</a></li>
+                    <li><a href="category/jilupian/index.html">纪录片</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>片库概览</h2>
+                <p>覆盖电影、剧集、综艺、纪录等多类型内容，支持按分类、年份、地区与关键词浏览。</p>
+            </section>
+        </div>
+    </div>
+</footer>
+<script src="assets/site.js" defer></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
